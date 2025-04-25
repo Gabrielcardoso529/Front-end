@@ -1,0 +1,35 @@
+/*Seletor de tag (elemento HTML) */
+h1{
+    color: black;
+}
+
+/*seletor de classe */
+.destaque {
+    font-weight: bold;
+}
+
+/*seletor de ID */
+#menu {
+    background-color: #000;
+}
+
+/* Seletor descendente (afeta apenas o elemento que está localizado dentro do li)*/
+nav li {
+    display: inline-block;
+}
+
+.caixa {
+    width: 200px;/*Largura da pág*/
+    height: 100px;/*Altura da pág*/
+    padding: 100px;/*Espaçamento interno*/
+    margin: 50px;/*Espaçamento externo*/
+    border: 5px solid black;/*Criação de uma borda*/
+}
+
+/*Cores e cor de fundo da Página*/
+body {
+    background-color: white;/*cor de fundo*/
+    color: black;/*Cor do texto*/
+    background-image: url(./images.jpg);/*Se precisa de imagem de fundo, usar está funçao*/
+    background-repeat: no-repeat;/*Evita a repetição da imagem*/
+}
